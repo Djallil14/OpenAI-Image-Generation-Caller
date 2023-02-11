@@ -1,5 +1,5 @@
 //
-//  OpenAINetworkManagement.swift
+//  OpenAINetworkManager.swift
 //  ImageAIGenerator
 //
 //  Created by Djallil on 2023-02-09.

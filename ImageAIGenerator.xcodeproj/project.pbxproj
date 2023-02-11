@@ -10,7 +10,7 @@
 		C58A1809299482100032535C /* ImageAIGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58A1808299482100032535C /* ImageAIGeneratorApp.swift */; };
 		C58A180D299482120032535C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58A180C299482120032535C /* Assets.xcassets */; };
 		C58A1810299482120032535C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58A180F299482120032535C /* Preview Assets.xcassets */; };
-		C5A4A33829955F120094AA0F /* OpenAINetworkManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A33729955F120094AA0F /* OpenAINetworkManagement.swift */; };
+		C5A4A33829955F120094AA0F /* OpenAINetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A33729955F120094AA0F /* OpenAINetworkManager.swift */; };
 		C5A4A33A299561180094AA0F /* ImageGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A339299561180094AA0F /* ImageGeneratorViewModel.swift */; };
 		C5A4A33C299561980094AA0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A33B299561980094AA0F /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -21,7 +21,7 @@
 		C58A1808299482100032535C /* ImageAIGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAIGeneratorApp.swift; sourceTree = "<group>"; };
 		C58A180C299482120032535C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58A180F299482120032535C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C5A4A33729955F120094AA0F /* OpenAINetworkManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAINetworkManagement.swift; sourceTree = "<group>"; };
+		C5A4A33729955F120094AA0F /* OpenAINetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAINetworkManager.swift; sourceTree = "<group>"; };
 		C5A4A339299561180094AA0F /* ImageGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGeneratorViewModel.swift; sourceTree = "<group>"; };
 		C5A4A33B299561980094AA0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +58,7 @@
 			children = (
 				C5481E972997236A00AA7E33 /* Info.plist */,
 				C58A1808299482100032535C /* ImageAIGeneratorApp.swift */,
-				C5A4A33729955F120094AA0F /* OpenAINetworkManagement.swift */,
+				C5A4A33729955F120094AA0F /* OpenAINetworkManager.swift */,
 				C5A4A339299561180094AA0F /* ImageGeneratorViewModel.swift */,
 				C5A4A33B299561980094AA0F /* ContentView.swift */,
 				C58A180C299482120032535C /* Assets.xcassets */,
@@ -148,7 +148,7 @@
 				C5A4A33C299561980094AA0F /* ContentView.swift in Sources */,
 				C58A1809299482100032535C /* ImageAIGeneratorApp.swift in Sources */,
 				C5A4A33A299561180094AA0F /* ImageGeneratorViewModel.swift in Sources */,
-				C5A4A33829955F120094AA0F /* OpenAINetworkManagement.swift in Sources */,
+				C5A4A33829955F120094AA0F /* OpenAINetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
